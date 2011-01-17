@@ -34,6 +34,9 @@ If you are trained enough, you can change those dates in few lines of code, but 
 * none of above, but you are sure that, sooner or later, someone will ask again for the same
   change.
 
+Also this product can be useful after some big-migration activiti to Plone. May be that you or
+your users need to be able to restore some creation/modification date after the process.
+
 Instructions
 ============
 
