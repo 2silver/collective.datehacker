@@ -1,0 +1,13 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser"
+   i18n_domain="collective.datehacker">
+
+  <browser:page
+    for="plone.dexterity.interfaces.IDexterityContent"
+    name="hackdates"
+    class="..browser.hackdate.HackDateView"
+    permission="collective.datehacker.HackDate"
+  />
+
+</configure>
